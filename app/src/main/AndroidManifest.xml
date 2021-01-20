@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myheresdk">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/Theme.MyHereSDK">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.here.android.maps.appid" android:value="G63KdwKV73YMHGPfmh7W"/>
+        <meta-data android:name="com.here.android.maps.apptoken" android:value="2RI5PlVaJMKlqUV89w8MRg"/>
+        <meta-data android:name="com.here.android.maps.license.key"
+            android:value="bJ0l1wgXkT9hzPTjRynaTw8v6jyefD+KCCSAH7teKFmNjsrI/HKaX7lTunsfSr+Mr90fbsxgEghqlSb6TedTg7xl4badEKyyywtJffJ/E18YFNOyn4PYSJqX+ZzYpFzmQXQnl+ekDKJDpKHHiczSjzcbkN4atQmA5U680pxj/lHCAPPIu3ySFurb0oLL9qAfRs0n8mFg2VKSAevj5EAcmfotr8ALXflCiv5SQQ/P8dWuxlGBT7g78xsES3oG+miXj6PJ63oop8giX9Hm8lHxK6sSyUk3n7IVpcjRqMnXe3U0LvG6VD6gNARhFBh4IDleaxmYPXkw0X/dxERttHX7afYO+QLxT2gv891wTF70IpdKhPfR8gYm5YSdiBEIheBNgNFeRfsHc4n/Uxh1AEu6HkyQSDZRtMLrdWgnuU+zKqlgv83/ZZmkIIcRn3I7VnTXCba3y2zTX8DiH/O5u29AfB/tQ4faK4HhUeDudRKiGY3l1Var2wqTO/33U7vYgkkAcIUYPw/7bbzEjh0LLId/un7Xgwm2A9K4xTPKmOu8tQG22TYO8toD83gPd5TNmPlqnMr57F08ZxIMrGOzFW2lXevEVmw2hhNXo7lcy/b9Be/Q7naFG68TYq+IdCYZdX5aez1+ZCowwFWq9wB+sM5dr57DYOnRBUeo5K2+94VD9Uo="/>
+    </application>
+
+</manifest>
